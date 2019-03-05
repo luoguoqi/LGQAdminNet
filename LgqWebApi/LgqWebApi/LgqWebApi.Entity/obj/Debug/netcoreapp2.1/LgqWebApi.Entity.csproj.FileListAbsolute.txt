@@ -1,0 +1,9 @@
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LgqWebApi\LgqWebApi\LgqWebApi.Entity\bin\Debug\netcoreapp2.1\LgqWebApi.Entity.deps.json
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LgqWebApi\LgqWebApi\LgqWebApi.Entity\bin\Debug\netcoreapp2.1\LgqWebApi.Entity.dll
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LgqWebApi\LgqWebApi\LgqWebApi.Entity\bin\Debug\netcoreapp2.1\LgqWebApi.Entity.pdb
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LgqWebApi\LgqWebApi\LgqWebApi.Entity\obj\Debug\netcoreapp2.1\LgqWebApi.Entity.csproj.CoreCompileInputs.cache
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LgqWebApi\LgqWebApi\LgqWebApi.Entity\obj\Debug\netcoreapp2.1\LgqWebApi.Entity.AssemblyInfoInputs.cache
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LgqWebApi\LgqWebApi\LgqWebApi.Entity\obj\Debug\netcoreapp2.1\LgqWebApi.Entity.AssemblyInfo.cs
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LgqWebApi\LgqWebApi\LgqWebApi.Entity\obj\Debug\netcoreapp2.1\LgqWebApi.Entity.dll
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LgqWebApi\LgqWebApi\LgqWebApi.Entity\obj\Debug\netcoreapp2.1\LgqWebApi.Entity.pdb
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LgqWebApi\LgqWebApi\LgqWebApi.Entity\obj\Debug\netcoreapp2.1\LgqWebApi.Entity.csprojAssemblyReference.cache

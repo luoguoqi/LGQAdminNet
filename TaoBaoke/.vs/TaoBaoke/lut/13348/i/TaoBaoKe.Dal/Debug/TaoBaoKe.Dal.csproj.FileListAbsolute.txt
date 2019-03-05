@@ -1,0 +1,6 @@
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoKe.Dal\bin\Debug\TaoBaoKe.Dal.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoKe.Dal\bin\Debug\TaoBaoKe.Dal.pdb
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Dal\Debug\TaoBaoKe.Dal.csprojResolveAssemblyReference.cache
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Dal\Debug\TaoBaoKe.Dal.csproj.CoreCompileInputs.cache
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Dal\Debug\TaoBaoKe.Dal.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Dal\Debug\TaoBaoKe.Dal.pdb

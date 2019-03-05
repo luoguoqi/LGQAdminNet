@@ -1,0 +1,6 @@
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoKe.Model\bin\Debug\TaoBaoKe.Model.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoKe.Model\bin\Debug\TaoBaoKe.Model.pdb
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Model\Debug\TaoBaoKe.Model.csprojResolveAssemblyReference.cache
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Model\Debug\TaoBaoKe.Model.csproj.CoreCompileInputs.cache
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Model\Debug\TaoBaoKe.Model.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Model\Debug\TaoBaoKe.Model.pdb

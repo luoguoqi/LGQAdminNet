@@ -1,0 +1,12 @@
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoke.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoke.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoke.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoke.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoke.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoke.Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoke.Tests\bin\Debug\TaoBaoke.Tests.dll.config
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoke.Tests\bin\Debug\TaoBaoke.Tests.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoke.Tests\bin\Debug\TaoBaoke.Tests.pdb
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Tests\Debug\TaoBaoKe.Tests.csproj.CoreCompileInputs.cache
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Tests\Debug\TaoBaoke.Tests.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Tests\Debug\TaoBaoke.Tests.pdb

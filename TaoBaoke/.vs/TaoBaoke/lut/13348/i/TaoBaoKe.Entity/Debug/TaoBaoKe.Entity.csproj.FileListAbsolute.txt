@@ -1,0 +1,5 @@
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoKe.Entity\bin\Debug\TaoBaoKe.Entity.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\b\TaoBaoKe.Entity\bin\Debug\TaoBaoKe.Entity.pdb
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Entity\Debug\TaoBaoKe.Entity.csproj.CoreCompileInputs.cache
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Entity\Debug\TaoBaoKe.Entity.dll
+D:\代码\LgqTest\TaoBaoke\.vs\TaoBaoke\lut\0\i\TaoBaoKe.Entity\Debug\TaoBaoKe.Entity.pdb

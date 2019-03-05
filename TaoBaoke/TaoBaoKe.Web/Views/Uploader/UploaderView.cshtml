@@ -1,0 +1,191 @@
+﻿@model TaoBaoKe.Web.RouteConfig
+@{
+    Layout = "~/Views/Shared/_LayoutMenu.cshtml";
+    var selectstr = ViewBag.CustomTemplate;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <div>
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    <div >
+        <form class="layui-form" action="">
+            <button type="button" class="layui-btn" id="test9">开始上传</button>
+            <div class="layui-input-inline">
+                <select name="cadetype" id="cadetype" lay-verify="cadetype">
+                    <option value="">请选择识别类型</option>
+                </select>
+            </div>
+            <br />
+            <br />
+            <div class="layui-upload">
+                <button type="button" class="layui-btn layui-btn-normal" id="test8">选择文件</button>
+                <br />
+                <br />
+
+            </div>
+            <table class="layui-hide" id="LAY_table_user" lay-filter="useruv"></table>
+        </form>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript">
+    layui.use('form', function () {
+        var form = layui.form;
+        var $ = layui.jquery;
+        $.ajax({
+            url: "/Uploader/GetSelect",
+            data: "",
+            type: "Get",
+            dataType: "json",
+            cache: false,//上传文件无需缓存
+            processData: false,//用于对data参数进行序列化处理 这里必须false
+            contentType: false, //必须
+            success: function (result) {
+                if (result != "false") {
+                    var optionstring = "";
+                    if (result.length > 0) {
+                        var show = "";
+                        for (var i = 0; i < result.length; i++) {
+                            optionstring += "<option value=\"" + result[i].EnumValue + "\" >" + result[i].EnumName + "</option>";
+                            //alert("上传完成!【" + result.words_result[n].words+"】");
+                        }
+                        $("#cadetype").html('<option value=""></option>' + optionstring);
+                        form.render('select'); //这个很重要
+                    }
+
+                }
+
+            },
+        });
+
+        //form.on('select(cadetype)', function (data) {
+        //    type = data.value;
+        //});
+
+        layui.use('upload', function () {
+
+            var upload = layui.upload;
+            var type = 0;
+
+            //选完文件后不自动上传
+            upload.render({
+                elem: '#test8'
+                , url: '/Uploader/UploaderFile'
+                , auto: false
+                , data:
+                {
+                    type: function () {
+                        return $('#cadetype').val();
+                    }
+                }
+                //,multiple: true
+                , bindAction: '#test9'
+                , done: function (res) {
+
+                    layui.use('table', function () {
+                        var table = layui.table;
+
+                        //方法级渲染
+                        table.render({
+                            elem: '#LAY_table_user'
+                            , data: res.ret
+                            , cols: [[
+                                { field: 'word_name', title: '类别', width: 120, sort: true }
+                                , { field: 'word', title: '明细', width: 380, sort: true }
+                            ]]
+                            , skin: 'row' //表格风格
+                            , even: true
+                            , page: false //是否显示分页
+                            , limits: [5, 7, 10]
+                            , limit: 10 //每页默认显示的数量
+                        });
+                    });
+                }
+            });
+        });
+
+    });
+
+    //layui.use('upload', function () {
+    //    var upload = layui.upload;
+
+
+
+    //    //执行实例
+    //    var uploadInst = upload.render({
+    //        elem: '#test1' //绑定元素
+    //        , url: '/Uploader/UploaderFile' //上传接口
+    //        , done: function (res) {
+    //            layui.use('table', function () {
+    //                var table = layui.table;
+
+    //                //方法级渲染
+    //                table.render({
+    //                    elem: '#LAY_table_user'
+    //                    , data: res.ret
+    //                    , cols: [[
+    //                        { field: 'word_name', title: '类别', width: 120, sort: true }
+    //                        , { field: 'word', title: '明细', width: 180, sort: true }
+    //                    ]]
+    //                    , skin: 'row' //表格风格
+    //                    , even: true
+    //                    , page: false //是否显示分页
+    //                    , limits: [5, 7, 10]
+    //                    , limit: 10 //每页默认显示的数量
+    //                });
+    //            });
+    //            //上传完毕回调
+    //        }
+    //        , error: function () {
+    //            //请求异常回调
+    //        }
+    //    });
+    //});
+
+    //function uploadimg() {
+
+    //    var fileObj = document.getElementById("FileUpload").files[0]; // js 获取文件对象
+    //    if (typeof (fileObj) == "undefined" || fileObj.size <= 0) {
+    //        alert("请选择图片");
+    //        return;
+    //    }
+    //    var formFile = new FormData();
+    //    formFile.append("file", fileObj); //加入文件对象
+    //    var data = formFile;
+    //    $.ajax({
+    //        url: "/Uploader/UploaderFile",
+    //        data: data,
+    //        type: "Post",
+    //        dataType: "json",
+    //        cache: false,//上传文件无需缓存
+    //        processData: false,//用于对data参数进行序列化处理 这里必须false
+    //        contentType: false, //必须
+    //        success: function (result) {
+    //            if (result != "false") {
+    //                if (result.ret.length > 0) {
+    //                    var show = "";
+    //                    for (var n in result.ret) {
+    //                        show += "<tr><td>" + result.ret[n].word_name + "</td><td>" + result.ret[n].word + "</td></tr>";
+    //                        //alert("上传完成!【" + result.words_result[n].words+"】");
+    //                    }
+    //                    $("#mydiv").html(show);
+    //                    alert("【" + show + "】");
+    //                }
+
+    //            }
+
+    //        },
+    //    })
+
+    //}
+</script>

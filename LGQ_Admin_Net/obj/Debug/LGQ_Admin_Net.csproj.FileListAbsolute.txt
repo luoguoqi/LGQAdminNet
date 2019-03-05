@@ -1,0 +1,7 @@
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LGQ_Admin_Net\bin\Debug\LGQ_Admin_Net.exe.config
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LGQ_Admin_Net\bin\Debug\LGQ_Admin_Net.exe
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LGQ_Admin_Net\bin\Debug\LGQ_Admin_Net.pdb
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LGQ_Admin_Net\obj\Debug\LGQ_Admin_Net.csprojAssemblyReference.cache
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LGQ_Admin_Net\obj\Debug\LGQ_Admin_Net.csproj.CoreCompileInputs.cache
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LGQ_Admin_Net\obj\Debug\LGQ_Admin_Net.exe
+D:\个人项目\新建文件夹\LGQ_Admin_Net\LGQ_Admin_Net\obj\Debug\LGQ_Admin_Net.pdb
