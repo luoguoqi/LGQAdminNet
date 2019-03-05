@@ -212,7 +212,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.App/2.1.0": {
-      "sha512": "AvT774nTFgU8cYcGO9j1EMwuayKslxqYTurg32HGpWa2hEYNuW2+XgYVVNcZe6Ndbr84QX6fwaOZfd5n+1m2OA==",
+      "sha512": "ajXApYjn5aOKdNKXx4t3reBwhoQ6X4653l5XIbSVaIUE6HuGoCTJ4bFDhT1o7t/+jIFjZek5DHmPqW2uGNcppA==",
       "type": "package",
       "path": "microsoft.netcore.app/2.1.0",
       "files": [
@@ -478,7 +478,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.1.0": {
-      "sha512": "f/47I60Wg3SrveTvnecCQhCZCAMYlUujWF15EQ/AZTqF/54qeEJjbCIAxKcZI8ToUYzSg6JdfrHggsgjCyCE9Q==",
+      "sha512": "X7daz95n8ZceL1lonXdbqXOUlMzNtmXneV8Wej8J7St4cETvNWgpquOaI8LMBxLsRolIG1Mq/qwYNb4YI9GCZg==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.1.0",
       "files": [
@@ -492,7 +492,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostPolicy/2.1.0": {
-      "sha512": "p50yZYKzhH64lmArJgoKjtvsNehECa+/sAuOQzZh5uDNBTbRKxjN8IXP1e517xdVsgrFcSNxSEVDKZIOWVjGcQ==",
+      "sha512": "1VN1c7Fg0gIx93wREa4c2oxhQz/TP+nd6F8Ox6h9aPgQGdo9tmHQhjiJmFZVsBY9+4OyMBOwJLVNw1hNd861SQ==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostpolicy/2.1.0",
       "files": [
@@ -506,7 +506,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostResolver/2.1.0": {
-      "sha512": "fS9D8a+y55n6mHMbNqgHXaPGkjmpVH9h97OyrBxsCuo3Z8aQaFMJ5xIfmzji2ntUd/3truhMbSgSfIelHOkQpg==",
+      "sha512": "dE3Pq/U/vUG7PXxtecYt2NezBO7pK4yt/0U18QfhS2dyDZk8UwY5ib9N/dzuPikc1R72y05i3TfMVfepvebUJw==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostresolver/2.1.0",
       "files": [
@@ -520,7 +520,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
+      "sha512": "efUjxZ/fzt3AXiOgWRbiXRHKb2tVpHlFiT72Wn5RriSgI1KvHy8f1S2uJYVvGIb0OXVRIkmAK9b3GrYsEKXtMQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
@@ -537,7 +537,7 @@
       ]
     },
     "Microsoft.NETCore.Targets/2.1.0": {
-      "sha512": "etaYwrLZQUS+b3UWTpCnUggd6SQ/ZIkZ5pHnoR7+dIWt/wp2Rv3CvMKOZISsrt7FYCHKwCxfcepuuyEWkQxADg==",
+      "sha512": "6Zs6CeLbrodWTNd7Ltzcqb5hrWBWGrjQKfaT7YspxDMqk6DcZ3A4uwdIMag3lifrNEJhICaebbileBVrP31/bg==",
       "type": "package",
       "path": "microsoft.netcore.targets/2.1.0",
       "files": [
@@ -554,12 +554,11 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "UWZptdxjpdLuTGMyVSb8Nl+/qWVHeSqYCzdKH3exesS/iAjwtnV1yvktMJPcLTuD+BKxfDwBBcWi7gJQIaorAA==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -689,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "D:\\MyConfiguration\\lgq07612\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "D:\\MyConfiguration\\lgq07612.TCENT\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\代码\\我的代码\\LGQ_Admin_Net\\LgqWebApi\\LgqWebApi\\LgqWebApi.Common\\LgqWebApi.Common.csproj",
+      "projectUniqueName": "D:\\个人项目\\LGQ_Admin_Net\\LGQAdminNet\\LgqWebApi\\LgqWebApi\\LgqWebApi.Common\\LgqWebApi.Common.csproj",
       "projectName": "LgqWebApi.Common",
-      "projectPath": "D:\\代码\\我的代码\\LGQ_Admin_Net\\LgqWebApi\\LgqWebApi\\LgqWebApi.Common\\LgqWebApi.Common.csproj",
-      "packagesPath": "D:\\MyConfiguration\\lgq07612\\.nuget\\packages\\",
-      "outputPath": "D:\\代码\\我的代码\\LGQ_Admin_Net\\LgqWebApi\\LgqWebApi\\LgqWebApi.Common\\obj\\",
+      "projectPath": "D:\\个人项目\\LGQ_Admin_Net\\LGQAdminNet\\LgqWebApi\\LgqWebApi\\LgqWebApi.Common\\LgqWebApi.Common.csproj",
+      "packagesPath": "D:\\MyConfiguration\\lgq07612.TCENT\\.nuget\\packages\\",
+      "outputPath": "D:\\个人项目\\LGQ_Admin_Net\\LGQAdminNet\\LgqWebApi\\LgqWebApi\\LgqWebApi.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "D:\\MyConfiguration\\lgq07612\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\MyConfiguration\\lgq07612.TCENT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -717,6 +716,7 @@
         "http://10.14.84.148:8011/nuget/": {},
         "http://api.nuget.17usoft.com/v3/index.json": {},
         "http://nuget.17usoft.com/api/v2/": {},
+        "http://tcwnuget.17usoft.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
